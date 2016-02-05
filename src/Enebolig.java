@@ -14,7 +14,7 @@ public class Enebolig extends Eiendom {
 		return typer[type - 1];
 	}
 	public void skrivAlleBud(){
-		System.out.printf("Bud Gitt for ENEBOLIG %s, takst = %.0f, gnr = %d, bnr = %d, type = %s\n",
+		System.out.printf("Bud Gitt for ENEBOLIG: %s, takst: %.0f, gnr: %d, bnr: %d, type: %s\n",
 				getAdresse(), gettakst(), getgnr(), getbnr(), getTypeAsString());
 		System.out.println("Bud Gitt:\t\t\tBudfrist:\t\t\tNavn:\t\t\tTlf:\t\t\tBeløp:");
 		for(int i = 0; i < getBud().size(); i++){

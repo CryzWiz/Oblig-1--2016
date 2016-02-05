@@ -13,7 +13,7 @@ public class Leilighet extends Eiendom{
 	
 	@Override
 	public void skrivAlleBud(){
-		System.out.printf("Bud Gitt for LEILIGHET %s, takst = %.0f, gnr = %d, bnr = %d, type = %s\n, fellesgjeld = %2.f, husleie = %.d, Etasje = %d",
+		System.out.printf("Bud Gitt for LEILIGHET: %s, takst: %.0f, gnr:%d, bnr = %d, fellesgjeld: %.2f, husleie: %.2f, etasje: %d\n",
 				getAdresse(), gettakst(), getgnr(), getbnr(), fellesGjeld, husleie, etg);
 		System.out.println("Bud Gitt:\t\t\tBudfrist:\t\t\tNavn:\t\t\tTlf:\t\t\tBeløp:");
 		for(int i = 0; i < getBud().size(); i++){
