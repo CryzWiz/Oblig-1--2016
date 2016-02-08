@@ -22,9 +22,10 @@ public class Oppgave_4 {
 			}
 		    inputLines.close();
 		    //Printing the result
-		    System.out.println("We have " + linesCount + " lines.");
-		    System.out.println("And " + wordCount + " words.");
-		    System.out.println("And a total of " + lettersCount + " letters.");
+		    System.out.println("In the file: " + file + " we have:");
+		    System.out.println(linesCount + " lines.");
+		    System.out.println(wordCount + " words.");
+		    System.out.println(lettersCount + " letters.");
 		    
 			}
 			//If we can't find the file
